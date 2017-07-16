@@ -1,10 +1,12 @@
-(Note: code for this repo is stored in a private repository to prevent misuse) 
+![saft 1 -01](https://user-images.githubusercontent.com/17185335/28251108-1a9fb7a4-6a6e-11e7-96b2-fa94b97ec8d3.png)
+
+(Note: code for this repo is stored in a private repository to prevent misuse. It is not currently deployed). 
 
 # Saft.ie
-A REST API providing live data and statistics on Ireland's rental and property markets
+Saft.ie is a REST API that provides live data and statistics on Ireland's rental and property markets. Saft utilizes Python's multi-processing module and a headless browser to  anonymously, rapidly and politely scrape data. This data is then parsed using regex and beautiful soup, fed into a Django-managed database and serialized using Django Rest Framework. 
 
 
-## Endpoints
+### Endpoints
 
 **GET:** /all
 
@@ -12,7 +14,9 @@ A REST API providing live data and statistics on Ireland's rental and property m
 
 **GET:** /purchasable
 
-**Filters**
+
+
+### Filters
 
 price [int]
 
